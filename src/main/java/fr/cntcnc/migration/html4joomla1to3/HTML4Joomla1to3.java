@@ -31,7 +31,7 @@ public class HTML4Joomla1to3 {
         try {
             //récupération du code html de la page web
             //Document doc = Jsoup.connect("http://cnt-cnc.fr/index.php?option=com_content&view=category&id=122&Itemid=146").get();
-            Document doc = Jsoup.connect("http://cnt-cnc.fr/index.php?option=com_content&view=category&id=111&Itemid=145").get();
+            Document doc = Jsoup.connect(args[0]).get();
             
             String pageEntiere = doc.toString();
 

@@ -10,6 +10,47 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+     <!-- Construction du JAR -->
+  <build>
+    <directory>target</directory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.3</version>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
+      <!-- ajout des dependances dans le jar final : jar-with-dependencies -->
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <!-- Nom du jar genere -->
+          <finalName>CNT-UtilitaireDeMigration</finalName>
+          <!-- Eviter que jar-with-dependencies soit ajouter au nom du jar -->
+          <appendAssemblyId>false</appendAssemblyId>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+          </descriptorRefs>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <mainClass>fr.cntcnc.migration.html4joomla1to3.HTML4Joomla1to3</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
     <dependencies>
         <dependency>
             <!-- jsoup HTML parser library @ http://jsoup.org/ -->
