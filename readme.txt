@@ -13,3 +13,5 @@ exemple :
 > java -jar CNT-UtilitaireDeMigrationV0.1.jar "http://cnt-cnc.fr/index.php?option=com_content&view=category&id=122&Itemid=146"
 
 PS: le jar se trouve dans target/CNT-UtilitaireDeMigrationV0.1.jar
+PS2: console sur windows -> sur le bureau, cliquez sur maj+clic souris droit, cliquez sur "ouvrir une fenêtre de commande ici"
+     Ou alors installez la console de git, plus pratique (https://git-for-windows.github.io/)
