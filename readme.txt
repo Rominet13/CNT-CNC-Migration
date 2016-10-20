@@ -14,5 +14,6 @@ exemple :
  (crée un fichier "Théâtre et Impro.txt")
 
 PS: le jar se trouve dans target/CNT-UtilitaireDeMigrationV0.1.jar
-PS2: console sur windows -> sur le bureau, cliquez sur maj+clic souris droit, cliquez sur "ouvrir une fenêtre de commande ici"
-     Ou alors installez la console de git, plus pratique (https://git-for-windows.github.io/)
+PS2: console sur windows -> dossier ou bureau où se trouve le jar, cliquez sur maj+clic souris droit,
+	 cliquez sur "ouvrir une fenêtre de commande ici"
+	 Ou alors installez la console de git, plus pratique (https://git-for-windows.github.io/)
