@@ -1,0 +1,325 @@
+<table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-cnt.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-cnt.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-cnt.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    CNT-CNC 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-neb.mp4"><img src="/media/CNT/images/vignettes_videos/2013-2014/clubs2013/FDC2013-neb.jpg" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-neb.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    NEB 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2013-2014/clubs2013/FDC2013-petits-nobels.mp4"><img src="/media/CNT/images/vignettes_videos/2013-2014/clubs2013/FDC2013-petits-nobels.jpg" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2013-2014/clubs2013/FDC2013-petits-nobels.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Petit Nobel 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2013-2014/clubs2013/FDC2013-karting.mp4"><img src="/media/CNT/images/vignettes_videos/2013-2014/clubs2013/FDC2013-karting.jpg" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2013-2014/clubs2013/FDC2013-karting.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Club Kart 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2013-2014/clubs2013/FDC2013-eveil-initiative.mp4"><img src="/media/CNT/images/vignettes_videos/2013-2014/clubs2013/FDC2013-eveil-initiative.jpg" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2013-2014/clubs2013/FDC2013-eveil-initiative.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Eveil Initiative 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-japon.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-japon.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-japon.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Club Japon 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2013-2014/clubs2013/FDC2013-theatre.mp4"><img src="/media/CNT/images/vignettes_videos/2013-2014/clubs2013/FDC2013-theatre.jpg" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2013-2014/clubs2013/FDC2013-theatre.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Théâtre 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-hallucinmoi.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-hallucinmoi.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-hallucinmoi.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Hallucin&Moi 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-salsa.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-salsa.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-salsa.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Salsa 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-cne.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-cne.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-cne.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    CNE 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-japanim.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-japanim.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-japanim.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Japanim 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-epiccentralenerd.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-epiccentralenerd.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-epiccentralenerd.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Epic Centrale Nerd 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-impro.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-impro.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-impro.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Impro 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-wei.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-wei.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-wei.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    WEI 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-ski.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-ski.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-ski.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Ski 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-footfe.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-footfe.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-footfe.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Foot Fé 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-brazuka.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-brazuka.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-brazuka.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Club Brazuka 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-voile.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-voile.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-voile.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Voile 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-cogen.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-cogen.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-cogen.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Cogen 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-creadanse.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-creadanse.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-creadanse.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Créa'Danse 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-rock.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-rock.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-rock.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Rock 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-oenologie.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-oenologie.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-oenologie.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Œnologie 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-gala.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-gala.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-gala.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Gala 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-volley.mp4"><img src="/media/CNT/images/vignettes_videos/2013-2014/clubs2013/FDC2013-volley.jpg" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-volley.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Volley 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-nuclerez.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-nuclerez.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-nuclerez.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Nuclerez 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2013-2014/clubs2013/FDC2013-ci.mp4"><img src="/media/CNT/images/vignettes_videos/2013-2014/clubs2013/FDC2013-centrale-image.jpg" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2013-2014/clubs2013/FDC2013-ci.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Centrale Image 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-chinamour.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-chinamour.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-chinamour.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Chinamour 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-croisiere.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-croisiere.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-croisiere.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Croisière 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-jdr.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-jdr.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-jdr.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    JDR 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-aumonerie.mp4"><img src="/media/CNT/images/vignettes_videos/2013-2014/clubs2013/FDC2013-aumonerie.jpg" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-aumonerie.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Aumonerie 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-fa.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-fa.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-fa.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Forum Atlantique 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-wed.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-wed.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-wed.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    WED 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-isf.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-isf.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-isf.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    ISF 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-aviron.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-aviron.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-aviron.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Aviron 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2013-2014/clubs2013/FDC2013-pompom.mp4"><img src="/media/CNT/images/vignettes_videos/2013-2014/clubs2013/FDC2013-pompom.jpg" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2013-2014/clubs2013/FDC2013-pompom.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Pom'pom 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-diy.mp4"><img src="/media/CNT/images/vignettes_videos/2014-2015/clubs2014/FDC2014-diy.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2014-2015/clubs2014/FDC2014-diy.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    DIY 
+   </big> </b>
+</td></table>

@@ -1,0 +1,28 @@
+<table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2015-2016//ThéâtreEtImpro/12_Hommes_en_colère.mp4"><img src="/media/CNT/images/vignettes_videos/2015-2016/TheatreEtImpro/12_Hommes_en_colère.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2015-2016//ThéâtreEtImpro/12_Hommes_en_colère.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    12 Hommes En Colère 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2015-2016//ThéâtreEtImpro/Passation_Impro.mp4"><img src="/media/CNT/images/vignettes_videos/2015-2016/TheatreEtImpro/Passation_Impro.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2015-2016//ThéâtreEtImpro/Passation_Impro.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Passation Impro 
+   </big> </b>
+</td></table><table><td style="padding-left: 30px;">
+<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2015-2016/ThéâtreEtImpro/Cabaret.mp4"><img src="/media/CNT/images/vignettes_videos/2015-2016/TheatreEtImpro/cabaretDImpro.png" /></a>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2015-2016/ThéâtreEtImpro/Cabaret.mp4"> Qualité standard </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Cabaret d'Impro, par La Tribu 
+   </big> </b>
+</td></table>
