@@ -1,0 +1,42 @@
+<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+<script src="http://vjs.zencdn.net/c/video.js"></script>
+
+<table><td style="padding-left: 30px;">
+   <video id="video1" class="video-js vjs-default-skin" width="640" height="480"
+        data-setup='{"controls" : true, "autoplay" : false, "preload" : "auto"}' poster="/media/CNT/images/vignettes_videos/2015-2016/TheatreEtImpro/12_Hommes_en_colère.png">
+        <source src="/media/CNT/videos/2015-2016/ThéâtreEtImpro/12_Hommes_en_colère.flv" type="video/x-flv">
+    </video>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2015-2016//ThéâtreEtImpro/12_Hommes_en_colère.mp4"> Visionner en <img src="media/CNT/images/icones/HD_Small.png" border="0" /> </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    12 Hommes En Colère 
+   </big> </b>
+</td></table>
+<table><td style="padding-left: 30px;">
+   <video id="video1" class="video-js vjs-default-skin" width="640" height="480"
+        data-setup='{"controls" : true, "autoplay" : false, "preload" : "auto"}' poster="/media/CNT/images/vignettes_videos/2015-2016/TheatreEtImpro/Passation_Impro.png">
+        <source src="/media/CNT/videos/2015-2016/ThéâtreEtImpro/Passation_Impro.flv" type="video/x-flv">
+    </video>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2015-2016//ThéâtreEtImpro/Passation_Impro.mp4"> Visionner en <img src="media/CNT/images/icones/HD_Small.png" border="0" /> </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Passation Impro 
+   </big> </b>
+</td></table>
+<table><td style="padding-left: 30px;">
+   <video id="video1" class="video-js vjs-default-skin" width="640" height="480"
+        data-setup='{"controls" : true, "autoplay" : false, "preload" : "auto"}' poster="/media/CNT/images/vignettes_videos/2015-2016/TheatreEtImpro/cabaretDImpro.png">
+        <source src="/media/CNT/videos/2015-2016/ThéâtreEtImpro/Cabaret.flv" type="video/x-flv">
+    </video>
+<br>
+<center><a data-rokbox data-rokbox-album="clubsSD" href="media/CNT/videos/2015-2016/ThéâtreEtImpro/Cabaret.mp4"> Visionner en <img src="media/CNT/images/icones/HD_Small.png" border="0" /> </a></center>
+</td>
+<td style="padding-left: 30px;"> 
+  <b><big>   
+    Cabaret d'Impro, par La Tribu 
+   </big> </b>
+</td></table>
