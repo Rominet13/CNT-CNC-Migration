@@ -38,7 +38,7 @@ public class CNTparser {
                 + "  <b><big>   \n"
                 + "    %s \n"
                 + "   </big> </b>\n"
-                + "</td></table>\n";
+                + "</td></table>\n\n";
 
         return String.format(nvArticleVierge, infosMedia);
     }
@@ -60,7 +60,7 @@ public class CNTparser {
                 + "  <b><big>   \n"
                 + "    %s \n"
                 + "   </big> </b>\n"
-                + "</td></table>\n";
+                + "</td></table>\n\n";
 
 
 
