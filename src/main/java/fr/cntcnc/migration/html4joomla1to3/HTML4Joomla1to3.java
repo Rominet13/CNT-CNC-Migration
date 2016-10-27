@@ -30,9 +30,9 @@ public class HTML4Joomla1to3 {
 
         try {
             //récupération du code html de la page web
-            //Document doc = Jsoup.connect("http://cnt-cnc.fr/index.php?option=com_content&view=category&id=122&Itemid=146").get();
-            Document doc = Jsoup.connect(args[0]).get();
-            
+            Document doc = Jsoup.connect("http://cnt-cnc.fr/index.php?option=com_content&view=category&id=122&Itemid=146").get();
+            //Document doc = Jsoup.connect(args[0]).get();
+
             String pageEntiere = doc.toString();
 
             //nb articles
@@ -55,10 +55,20 @@ public class HTML4Joomla1to3 {
             Elements videos = doc.select("a[href^=media/CNT/videos/]");
             List<String> listeVideo = new ArrayList<String>();
             for (Element video : videos) {
-               System.out.println(video.attr("href")); // verif à faire: se termine par ".mp4"
+                System.out.println(video.attr("href")); // verif à faire: se termine par ".mp4"
                 listeVideo.add(video.attr("href").toString());
             }
             boolean nbVideoMP4 = videos.size() == nbArticles;
+
+            //récupération des vidéos FLV 
+            Elements videosFLV = doc.select("a[href^=/media/CNT/videos/]");
+            List<String> listeVideoFLV = new ArrayList<String>();
+            for (Element videoFLV : videosFLV) {
+                System.out.println(videoFLV.attr("href")); // verif à faire: se termine par ".mp4"
+                listeVideoFLV.add(videoFLV.attr("href").toString().substring(0, videoFLV.attr("href").toString().indexOf(".flv")) + ".flv");
+                System.out.println(listeVideoFLV.get(listeVideoFLV.size() - 1));
+            }
+            boolean nbVideoFLV = videosFLV.size() == nbArticles;
 
             //récupération des titres
             Elements titres = doc.select("td p strong");
@@ -78,6 +88,7 @@ public class HTML4Joomla1to3 {
             boolean un = TitrePage.size() == 1;
 
             String contenuFinal = "";
+            String contenuFinalFLV = "";
             System.out.println(un);
             if (nbTitre && nbVideoMP4 && nbVignette && un) {
 //                System.out.println("test");
@@ -85,16 +96,28 @@ public class HTML4Joomla1to3 {
                     String[] infosMedia = {listeVideo.get(i), listeVignettes.get(i), listeVideo.get(i), listeTitres.get(i)};
                     System.out.println(i + " " + listeVideo.get(i) + listeVignettes.get(i) + listeVideo.get(i) + listeTitres.get(i));
                     contenuFinal += generateurArticleJ3(infosMedia);
+
+                    String[] infosMediaFLV = {listeVignettes.get(i),listeVideoFLV.get(i),listeVideo.get(i), listeTitres.get(i)};
+                    System.out.println(i + " " + listeVideoFLV.get(i) + listeVignettes.get(i) + listeVideo.get(i) + listeTitres.get(i));
+                    contenuFinalFLV += generateurArticleJ3AvecFLV(infosMediaFLV);
                 }
                 imprimeurArticles(contenuFinal, titrePage);
-            }else if(titres.size()==videos.size() && videos.size()==imgs.size()){
-            for (int i = 0; i < videos.size(); i++) {
+                imprimeurArticles("<link href=\"http://vjs.zencdn.net/c/video-js.css\" rel=\"stylesheet\">\n"
+                + "<script src=\"http://vjs.zencdn.net/c/video.js\"></script>\n\n"+contenuFinalFLV, titrePage+"FLV");
+            } else if (titres.size() == videos.size() && videos.size() == imgs.size()) {
+                for (int i = 0; i < videos.size(); i++) {
                     String[] infosMedia = {listeVideo.get(i), listeVignettes.get(i), listeVideo.get(i), listeTitres.get(i)};
                     System.out.println(i + " " + listeVideo.get(i) + listeVignettes.get(i) + listeVideo.get(i) + listeTitres.get(i));
                     contenuFinal += generateurArticleJ3(infosMedia);
+
+                    String[] infosMediaFLV = {listeVignettes.get(i),listeVideoFLV.get(i), listeVideo.get(i), listeTitres.get(i)};
+                    System.out.println(i + " " + listeVideoFLV.get(i) + listeVignettes.get(i) + listeVideo.get(i) + listeTitres.get(i));
+                    contenuFinalFLV += generateurArticleJ3AvecFLV(infosMediaFLV);
                 }
                 imprimeurArticles(contenuFinal, titrePage);
-        }
+                imprimeurArticles("<link href=\"http://vjs.zencdn.net/c/video-js.css\" rel=\"stylesheet\">\n"
+                + "<script src=\"http://vjs.zencdn.net/c/video.js\"></script>\n\n"+contenuFinalFLV, titrePage+"FLV");
+            }
 
             //System.out.println(doc.toString());
         } catch (IOException ex) {
