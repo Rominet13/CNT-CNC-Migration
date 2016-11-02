@@ -8,6 +8,7 @@
     12 Hommes En Colère 
    </big> </b>
 </td></table>
+
 <table><td style="padding-left: 30px;">
 <a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2015-2016//ThéâtreEtImpro/Passation_Impro.mp4"><img src="/media/CNT/images/vignettes_videos/2015-2016/TheatreEtImpro/Passation_Impro.png" /></a>
 <br>
@@ -18,6 +19,7 @@
     Passation Impro 
    </big> </b>
 </td></table>
+
 <table><td style="padding-left: 30px;">
 <a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2015-2016/ThéâtreEtImpro/Cabaret.mp4"><img src="/media/CNT/images/vignettes_videos/2015-2016/TheatreEtImpro/cabaretDImpro.png" /></a>
 <br>
@@ -28,3 +30,4 @@
     Cabaret d'Impro, par La Tribu 
    </big> </b>
 </td></table>
+

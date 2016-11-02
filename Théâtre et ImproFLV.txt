@@ -14,6 +14,7 @@
     12 Hommes En Colère 
    </big> </b>
 </td></table>
+
 <table><td style="padding-left: 30px;">
    <video id="video1" class="video-js vjs-default-skin" width="640" height="480"
         data-setup='{"controls" : true, "autoplay" : false, "preload" : "auto"}' poster="/media/CNT/images/vignettes_videos/2015-2016/TheatreEtImpro/Passation_Impro.png">
@@ -27,6 +28,7 @@
     Passation Impro 
    </big> </b>
 </td></table>
+
 <table><td style="padding-left: 30px;">
    <video id="video1" class="video-js vjs-default-skin" width="640" height="480"
         data-setup='{"controls" : true, "autoplay" : false, "preload" : "auto"}' poster="/media/CNT/images/vignettes_videos/2015-2016/TheatreEtImpro/cabaretDImpro.png">
@@ -40,3 +42,4 @@
     Cabaret d'Impro, par La Tribu 
    </big> </b>
 </td></table>
+
