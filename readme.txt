@@ -11,9 +11,13 @@ Dans la console:
 
 exemple :
 > java -jar CNT-UtilitaireDeMigrationV0.1.jar "http://cnt-cnc.fr/index.php?option=com_content&view=category&id=122&Itemid=146"
- (crée un fichier "Théâtre et Impro.txt")
+ (crée un fichier "Théâtre et Impro.txt" "Théâtre et ImproFLV.txt)
 
 PS: le jar se trouve dans target/CNT-UtilitaireDeMigrationV0.1.jar
 PS2: console sur windows -> dossier ou bureau où se trouve le jar, cliquez sur maj+clic souris droit,
 	 cliquez sur "ouvrir une fenêtre de commande ici"
 	 Ou alors installez la console de git, plus pratique (https://git-for-windows.github.io/)
+	 
+Historique des versions:
+V0.2 prise en compte des vidéos FLV + optimisations trivials
+V0.1 
