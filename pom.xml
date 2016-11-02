@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>fr.cntcnc.migration</groupId>
     <artifactId>HTML4Joomla1to3</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.2</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -35,7 +35,7 @@
         </executions>
         <configuration>
           <!-- Nom du jar genere -->
-          <finalName>CNT-UtilitaireDeMigration</finalName>
+          <finalName>CNT-UtilitaireDeMigrationV${version}</finalName>
           <!-- Eviter que jar-with-dependencies soit ajouter au nom du jar -->
           <appendAssemblyId>false</appendAssemblyId>
           <descriptorRefs>
