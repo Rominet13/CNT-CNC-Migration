@@ -26,46 +26,11 @@ public class CNTparser {
         return test;
     }
 
-    public static String generateurArticleJ3(String[] infosMedia) { //infosMedia = [video,image,video,titre]
+    public static String generateurArticleJ3(ArticlesViergesEnum nvArticleVierge, String[] infosMedia) {
         //Dans l'ordre: video, img, video, titre
-        String nvArticleVierge
-                = "<table><td style=\"padding-left: 30px;\">\n"
-                + "<a data-rokbox data-rokbox-album=\"clubsHD\" href=\"%s\"><img src=\"%s\" /></a>\n"
-                + "<br>\n"
-                + "<center><a data-rokbox data-rokbox-album=\"clubsSD\" href=\"%s\"> Qualité standard </a></center>\n"
-                + "</td>\n"
-                + "<td style=\"padding-left: 30px;\"> \n"
-                + "  <b><big>   \n"
-                + "    %s \n"
-                + "   </big> </b>\n"
-                + "</td></table>\n\n";
-
-        return String.format(nvArticleVierge, infosMedia);
-    }
-    
-    public static String generateurArticleJ3AvecFLV(String[] infosMedia) { //infosMedia = [videoFLV,image,video,titre]
-        //Dans l'ordre: video, img, video, titre
-        String nvArticleVierge
-                = //"<link href=\"http://vjs.zencdn.net/c/video-js.css\" rel=\"stylesheet\">\n"
-               // + "<script src=\"http://vjs.zencdn.net/c/video.js\"></script>\n" +
-                 "<table><td style=\"padding-left: 30px;\">\n"
-                + "   <video id=\"video1\" class=\"video-js vjs-default-skin\" width=\"640\" height=\"480\"\n"
-                +"        data-setup='{\"controls\" : true, \"autoplay\" : false, \"preload\" : \"auto\"}' poster=\"%s\">\n"
-                + "        <source src=\"%s\" type=\"video/x-flv\">\n"
-                + "    </video>\n"
-                + "<br>\n"
-                + "<center><a data-rokbox data-rokbox-album=\"clubsSD\" href=\"%s\"> Visionner en <img src=\"media/CNT/images/icones/HD_Small.png\" border=\"0\" /> </a></center>\n"
-                + "</td>\n"
-                + "<td style=\"padding-left: 30px;\"> \n"
-                + "  <b><big>   \n"
-                + "    %s \n"
-                + "   </big> </b>\n"
-                + "</td></table>\n\n";
-
-
-
- 
-        return String.format(nvArticleVierge, infosMedia);
+        //infosMedia = [video,image,video,titre] si sans FLV
+        //infosMedia = [videoFLV,image,video,titre] si avec FLV
+        return String.format(nvArticleVierge.getNvArticleVierge(), infosMedia);
     }
 
     public static void imprimeurArticles(String listeArticles, String nomFichier) {
