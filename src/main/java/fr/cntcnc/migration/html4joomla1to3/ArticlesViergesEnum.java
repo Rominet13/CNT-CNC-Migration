@@ -6,10 +6,18 @@
 package fr.cntcnc.migration.html4joomla1to3;
 
 /**
- *
+ * @TODO : ajouter une version avec balise vidéo (qui à l'air mieux que rokbox = vieux) 
  * @author volph
  */
-public enum ArticlesViergesEnum {
+public enum ArticlesViergesEnum { 
+    SANSFLVMODERNELigne("	<tr>\n" +
+"		<td>\n" +
+"			<a data-rokbox data-rokbox-album=\"clubsHD\" href=\"%s\"><img src=\"%s\" /></a>\n" +
+"		</td>\n" +
+"		<td>\n" +
+"			<b><big>%s</big></b>\n" +
+"		</td>\n" +
+"	</tr>"), 
     SANSFLV("<table><td style=\"padding-left: 30px;\">\n"
             + "<a data-rokbox data-rokbox-album=\"clubsHD\" href=\"%s\"><img src=\"%s\" /></a>\n"
             + "<br>\n"
@@ -33,6 +41,8 @@ public enum ArticlesViergesEnum {
             + "    %s \n"
             + "   </big> </b>\n"
             + "</td></table>\n\n");
+    
+    
 
     private String nvArticleVierge;
 
