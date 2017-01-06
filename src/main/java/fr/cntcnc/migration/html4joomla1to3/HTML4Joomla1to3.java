@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * TODO ajouter un logger plutot que les sysout
+ *
  */
 package fr.cntcnc.migration.html4joomla1to3;
 
@@ -27,10 +26,24 @@ public class HTML4Joomla1to3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Logger logger = Logger.getLogger(HTML4Joomla1to3.class.getName());
+        logger.setLevel(Level.FINE);
+        if(args[args.length-1].contains("debug")){ // pour le mode debug
+            System.out.println("Affichage DEBUB ACTIF (VERBOSE)");
+        }
+        logger.log(Level.INFO, "INFO");
+        logger.log(Level.FINE, "FINE");
+        logger.log(Level.FINER, "FINER");
+        logger.log(Level.FINEST, "FINEST");
+        logger.log(Level.CONFIG, "CONFIG");
+        logger.log(Level.ALL, "ALL");
+        logger.log(Level.OFF, "OFF");
+        logger.log(Level.WARNING, "WARNING");
+        logger.log(Level.SEVERE, "SEVERE");
 
+         //affichage 
         try {
             //récupération du code html de la page web
-            //Document doc = Jsoup.connect("http://cnt-cnc.fr/index.php?option=com_content&view=category&id=122&Itemid=146").get();
             Document doc = Jsoup.connect(args[0]).get();
 
             //inutil
@@ -88,29 +101,65 @@ public class HTML4Joomla1to3 {
             }
             boolean un = TitrePage.size() == 1;
 
-//Phase 2 : génération du nouveau code html pour le nouveau site, au format txt.            
+//Phase 2 : génération du nouveau code html pour le nouveau site, au format txt.
+            // ajouter juste pour article de version finale moderne
+            String contenuFinalModerne = "<h2>\n" +
+titrePage+"\n" +
+"</h2>\n" +
+"<p>\n" +
+"	<!--description article -->\n" +
+"</p>\n" +
+"<style>\n" +
+"  tr:hover {background-color: #f5f5f5}\n" +
+"	td:nth-child(1)\n" +
+"	{\n" +
+"		width: 60%;\n" +
+"		padding-left:2%;\n" +
+"		padding-bottom:4.2%;\n" +
+"		text-align:center;\n" +
+"	}\n" +
+"\n" +
+"	td:nth-child(2)\n" +
+"	{\n" +
+"      padding-left:5%;\n" +
+"		padding-bottom:4.2%;\n" +
+"		vertical-align:middle;\n" +
+"	}\n" +
+"  img {\n" +
+"    margin: 5px;\n" +
+"    border: 1px solid #ccc;\n" +
+"    width: 50%;\n" +
+"    height: 40%;\n" +
+"}\n" +
+"</style>\n" +
+"\n" +
+"<table width=\"100%\">\n";
             String contenuFinal = "";
             String contenuFinalFLV = "";
-            System.out.println(un);
+            System.out.println("Nombre de nom de la page: " + un);
             //vérification cohérence nombre de vidéos,titres, et vignette, et aussi 1 titre de page sinon pas d'article
             if (titres.size() == videos.size() && videos.size() == imgs.size() && un) {
                 for (int i = 0; i < videos.size(); i++) {
+                    String[] infosMediaModerne = {listeVideo.get(i), listeVignettes.get(i), listeTitres.get(i)};
+                    System.out.println(i + " " + listeVideo.get(i) + listeVignettes.get(i) + listeVideo.get(i) + listeTitres.get(i));
+                    contenuFinalModerne += generateurArticleJ3(ArticlesViergesEnum.SANSFLVMODERNELigne, infosMediaModerne);
+                    /*
                     String[] infosMedia = {listeVideo.get(i), listeVignettes.get(i), listeVideo.get(i), listeTitres.get(i)};
                     System.out.println(i + " " + listeVideo.get(i) + listeVignettes.get(i) + listeVideo.get(i) + listeTitres.get(i));
                     contenuFinal += generateurArticleJ3(ArticlesViergesEnum.SANSFLV, infosMedia);
 
                     String[] infosMediaFLV = {listeVignettes.get(i), listeVideoFLV.get(i), listeVideo.get(i), listeTitres.get(i)};
                     System.out.println(i + " " + listeVideoFLV.get(i) + listeVignettes.get(i) + listeVideo.get(i) + listeTitres.get(i));
-                    contenuFinalFLV += generateurArticleJ3(ArticlesViergesEnum.AVECFLV, infosMediaFLV);
+                    contenuFinalFLV += generateurArticleJ3(ArticlesViergesEnum.AVECFLV, infosMediaFLV);   */
                 }
-                imprimeurArticles(contenuFinal, titrePage);
-                imprimeurArticles("<link href=\"http://vjs.zencdn.net/c/video-js.css\" rel=\"stylesheet\">\n"
-                        + "<script src=\"http://vjs.zencdn.net/c/video.js\"></script>\n\n" + contenuFinalFLV, titrePage + "FLV");
-            }
-            
+                
+                imprimeurArticles(contenuFinalModerne+"\n</table>", titrePage);   
+                //imprimeurArticles(contenuFinal, titrePage);
+                //imprimeurArticles("<link href=\"http://vjs.zencdn.net/c/video-js.css\" rel=\"stylesheet\">\n"+ "<script src=\"http://vjs.zencdn.net/c/video.js\"></script>\n\n" + contenuFinalFLV, titrePage + "FLV");
+            }else{logger.log(Level.SEVERE,"ERREUR HTML d'origine");}
             //System.out.println(doc.toString());
         } catch (IOException ex) {
-            Logger.getLogger(HTML4Joomla1to3.class.getName()).log(Level.SEVERE, null, ex);
+            logger.log(Level.SEVERE, null, ex);
         }
     }
 

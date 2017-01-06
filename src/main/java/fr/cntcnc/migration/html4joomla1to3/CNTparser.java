@@ -41,6 +41,7 @@ public class CNTparser {
 //            articleComplet+=listeArticle;
 //        }
             FileUtils.writeStringToFile(new File(nomFichier + ".txt"), listeArticles);
+            System.out.println("---- Impression de l'article ---"+nomFichier + ".txt");    
         } catch (IOException ex) {
             Logger.getLogger(CNTparser.class.getName()).log(Level.SEVERE, null, ex);
         }
