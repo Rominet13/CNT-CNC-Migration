@@ -3,3 +3,4 @@ target/*
 Th\303\251\303\242tre et Impro.txt
 Th\303\251\303\242tre et ImproFLV.txt*.txt
 *.txt
+!Théâtre et Impro.txt
