@@ -12,7 +12,7 @@ Dans la console:
 	> java -jar CNT-UtilitaireDeMigrationV0.3.jar "url" verbose
 
 exemple :
-> java -jar CNT-UtilitaireDeMigrationV0.3.jar "http://cnt-cnc.fr/index.php?option=com_content&view=category&id=122&Itemid=146"
+> java -jar CNT-UtilitaireDeMigrationV0.3.jar "http://postprod.cnt-cnc.fr/index.php?option=com_content&view=category&id=117&Itemid=146"
  (crée un fichier "Théâtre et Impro.txt" "Théâtre et ImproFLV.txt)
 
 PS1 pour les non informaticiens: le jar se trouve dans target/CNT-UtilitaireDeMigrationV0.1.jar
