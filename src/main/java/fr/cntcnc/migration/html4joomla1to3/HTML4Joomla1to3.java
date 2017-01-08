@@ -36,7 +36,7 @@ public class HTML4Joomla1to3 {
             logger.setLevel(Level.CONFIG);
             handler.setLevel(Level.CONFIG);
             logger.log(Level.CONFIG, "Affichage VERBOSE - DEBUB ACTIF (vous avez \"verbose\" en 2nd argument)\n");
-        }
+        }// http://postprod.cnt-cnc.fr/index.php?option=com_content&view=category&id=119&Itemid=146 verbose
         //affichage 
         try {
             //récupération du code html de la page web
@@ -54,7 +54,7 @@ public class HTML4Joomla1to3 {
             Elements imgs = doc.select("img[src^=/media/CNT/images/vignettes_videos]");
             List<String> listeVignettes = new ArrayList<String>();
             for (Element imgVignette : imgs) {
-                listeVignettes.add(imgVignette.attr("src").toString());
+                listeVignettes.add(imgVignette.attr("src").toString().replaceFirst("_videos", ""));
             }
             logger.log(Level.CONFIG, "Liste des VIGNETTES:\n" + listeVignettes + "\n");
             //boolean nbVignette = imgs.size() == nbArticles;
@@ -63,7 +63,8 @@ public class HTML4Joomla1to3 {
             Elements videos = doc.select("a[href^=media/CNT/videos/]");
             List<String> listeVideo = new ArrayList<String>();
             for (Element video : videos) {
-                listeVideo.add(video.attr("href").toString());
+                if(!listeVideo.contains(video.attr("href").toString())){
+                listeVideo.add(video.attr("href").toString());}
             }
             logger.log(Level.CONFIG, "Liste des VIDEOS MP4:\n" + listeVideo + "\n"); // verif à faire: se termine par ".mp4"
             //boolean nbVideoMP4 = videos.size() == nbArticles;
@@ -121,7 +122,7 @@ public class HTML4Joomla1to3 {
                     + "		padding-bottom:4.2%;\n"
                     + "		vertical-align:middle;\n"
                     + "	}\n"
-                    + "  img {\n"
+                    + " table img {\n"
                     + "    margin: 5px;\n"
                     + "    border: 1px solid #ccc;\n"
                     + "    width: 50%;\n"
@@ -133,13 +134,13 @@ public class HTML4Joomla1to3 {
             String contenuFinal = "";
             String contenuFinalFLV = "";
             System.out.println("Nombre de nom de la page: " + un + "    (égal à 1 si pas d'erreur)");
-            System.out.println("Nombre de titre/vidéo : " + titres.size());
-            System.out.println("Nombre de vidéos mp4 trouvés: " + videos.size());
-            System.out.println("Nombre de vignettes trouvées: " + imgs.size() + "    (ces 3 dernières valeurs doivent être égale" + "\n");
+            System.out.println("Nombre de titre/vidéo : " + listeTitres.size());
+            System.out.println("Nombre de vidéos mp4 trouvés: " + listeVideo.size());
+            System.out.println("Nombre de vignettes trouvées: " + listeVignettes.size() + "    (ces 3 dernières valeurs doivent être égale" + "\n");
             //vérification cohérence nombre de vidéos,titres, et vignette, et aussi 1 titre de page sinon pas d'article
-            if (titres.size() == videos.size() && videos.size() == imgs.size() && un) {
+            if (listeTitres.size() == listeVideo.size() && listeVideo.size() == listeVignettes.size() && un) {
                 System.out.println(titrePage);
-                for (int i = 0; i < videos.size(); i++) {
+                for (int i = 0; i < listeVideo.size(); i++) {
                     String[] infosMediaModerne = {listeVideo.get(i), listeVignettes.get(i), listeTitres.get(i)};
                     System.out.println(i + " " + listeTitres.get(i) + " " + listeVideo.get(i) + " " + listeVignettes.get(i));
                     contenuFinalModerne += generateurArticleJ3(ArticlesViergesEnum.SANSFLVMODERNELigne, infosMediaModerne);

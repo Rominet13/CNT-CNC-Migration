@@ -20,7 +20,7 @@ Théâtre et Impro
 		padding-bottom:4.2%;
 		vertical-align:middle;
 	}
-  img {
+ table img {
     margin: 5px;
     border: 1px solid #ccc;
     width: 50%;
@@ -31,21 +31,21 @@ Théâtre et Impro
 <table width="100%">
 	<tr>
 		<td>
-			<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2015-2016//ThéâtreEtImpro/12_Hommes_en_colère.mp4"><img src="/media/CNT/images/vignettes_videos/2015-2016/TheatreEtImpro/12_Hommes_en_colère.png" /></a>
+			<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2015-2016//ThéâtreEtImpro/12_Hommes_en_colère.mp4"><img src="/media/CNT/images/vignettes/2015-2016/TheatreEtImpro/12_Hommes_en_colère.png" /></a>
 		</td>
 		<td>
 			<b><big>12 Hommes En Colère</big></b>
 		</td>
 	</tr>	<tr>
 		<td>
-			<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2015-2016//ThéâtreEtImpro/Passation_Impro.mp4"><img src="/media/CNT/images/vignettes_videos/2015-2016/TheatreEtImpro/Passation_Impro.png" /></a>
+			<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2015-2016//ThéâtreEtImpro/Passation_Impro.mp4"><img src="/media/CNT/images/vignettes/2015-2016/TheatreEtImpro/Passation_Impro.png" /></a>
 		</td>
 		<td>
 			<b><big>Passation Impro</big></b>
 		</td>
 	</tr>	<tr>
 		<td>
-			<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2015-2016/ThéâtreEtImpro/Cabaret.mp4"><img src="/media/CNT/images/vignettes_videos/2015-2016/TheatreEtImpro/cabaretDImpro.png" /></a>
+			<a data-rokbox data-rokbox-album="clubsHD" href="media/CNT/videos/2015-2016/ThéâtreEtImpro/Cabaret.mp4"><img src="/media/CNT/images/vignettes/2015-2016/TheatreEtImpro/cabaretDImpro.png" /></a>
 		</td>
 		<td>
 			<b><big>Cabaret d'Impro, par La Tribu</big></b>
