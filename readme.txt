@@ -4,7 +4,7 @@ Prend l'adresse d'une page de l'ancien site web, dont les articles sont à migrer
 Renvoit un fichier texte contenant exactement le code html à copier-coller dans la zone html
 	lors de la création d'un nouvel article avec Joomla 3.x .
 	Le nom du fichier texte correspond au nom de l'article, à copier-coller dans le "titre" 
-	du nouvel article.
+	du nouvel article. Les images en png ont leur extension remplacé par jpg.
 
 Dans la console: 
 > java -jar CNT-UtilitaireDeMigrationV0.3.jar "url"
