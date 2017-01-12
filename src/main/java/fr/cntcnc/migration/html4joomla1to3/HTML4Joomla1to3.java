@@ -54,7 +54,7 @@ public class HTML4Joomla1to3 {
             Elements imgs = doc.select("img[src^=/media/CNT/images/vignettes_videos]");
             List<String> listeVignettes = new ArrayList<String>();
             for (Element imgVignette : imgs) {
-                listeVignettes.add(imgVignette.attr("src").toString().replaceFirst("_videos", ""));
+                listeVignettes.add(imgVignette.attr("src").toString().replaceFirst("_videos", "").replace(".png", ".jpg"));
             }
             logger.log(Level.CONFIG, "Liste des VIGNETTES:\n" + listeVignettes + "\n");
             //boolean nbVignette = imgs.size() == nbArticles;
